@@ -2,21 +2,22 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Product from './demo/Product';
 
-import Name from './demo/Name';
-import Index from './demo/';
+// import Name from './demo/Name';
+// import Index from './demo/';
 
 
-function Person(props) {
-  let name = props.name;
+// function Person(props) {
+//   let name = props.name;
 
-  return (
-    <div>
-      <h1>WELCOME!</h1>
-      <Name name = {name} />
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <h1>WELCOME!</h1>
+//       <Name name = {name} />
+//     </div>
+//   );
+// }
 
 
 function App() {
@@ -27,7 +28,6 @@ function App() {
            .__(.)< (MEOW)
             \___)   
       ~~~~~~~~~~~~~~~~~~ */}
-      {/* Isk vonc karam anem, vor cuyc ta comment-y browserum? */}
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -43,9 +43,12 @@ function App() {
           Learn React
         </a>
 
-        <Index />
+        {/* <Index />
+        <Person name = 'Sarah' /> */}
 
-        <Person name = 'Sarah' />
+        <Product name="Apricots" price="3$" description="Fresh apricots from Armenia!" />
+        <Product name="Bananas" price="2$" description="Fresh bananas from Ecuador!" />
+        <Product name="Apples" price="2$" description="The best apples in the World!" />
 
 
       </header>
