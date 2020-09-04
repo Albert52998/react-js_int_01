@@ -1,5 +1,4 @@
 import React from 'react';
-import {Component} from 'react';
 
 export default class Price extends React.Component {
     constructor(props) {

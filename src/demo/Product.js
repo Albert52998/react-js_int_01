@@ -1,5 +1,4 @@
 import React from 'react';
-import {Component} from 'react';
 
 import Name from './classes/Name';
 import Price from './classes/Price';
