@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Product from './demo/Product';
@@ -30,7 +29,7 @@ function App() {
       ~~~~~~~~~~~~~~~~~~ */}
 
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -41,14 +40,14 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
 
         {/* <Index />
         <Person name = 'Sarah' /> */}
 
-        <Product name="Apricots" price="3$" description="Fresh apricots from Armenia!" />
-        <Product name="Bananas" price="2$" description="Fresh bananas from Ecuador!" />
-        <Product name="Apples" price="2$" description="The best apples in the World!" />
+        <Product name="Apricots" price="3" description="Fresh apricots from Armenia!" />
+        <Product name="Bananas" price="2" description="Fresh bananas from Ecuador!" />
+        <Product name="Apples" price="2" description="The best apples in the World!" />
 
 
       </header>

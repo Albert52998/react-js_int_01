@@ -1,5 +1,9 @@
 import React from 'react';
 
+import Name from './classes/Name';
+import Price from './classes/Price';
+import Description from './classes/Description';
+
 class Product extends React.Component {
     constructor(props) {
         super(props);
@@ -8,12 +12,13 @@ class Product extends React.Component {
     render() {
         return (
             <div>
-                <h1>{this.props.name}</h1>
-                <h2>{this.props.price}</h2>
-                <p>{this.props.description}</p>
+                <Name name = {this.props.name} />
+                <Price price = {this.props.price} />
+                <Description description = {this.props.description} />
             </div>
         )
     }
 }
+
 
 export default Product;
