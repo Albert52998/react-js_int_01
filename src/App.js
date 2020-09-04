@@ -46,7 +46,7 @@ function App() {
         <Person name = 'Sarah' /> */}
 
         <Product name="Apricots" price="3" description="Fresh apricots from Armenia!" />
-        <Product name="Bananas" price="2" description="Fresh bananas from Ecuador!" />
+        <Product name="Bananas" price="1" description="Fresh bananas from Ecuador!" />
         <Product name="Apples" price="2" description="The best apples in the World!" />
 
 
