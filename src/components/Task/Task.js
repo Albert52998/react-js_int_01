@@ -36,7 +36,6 @@ class Task extends PureComponent {
             <Card 
             className={cardClasses.join(' ')}
             >
-            {/* className={`card ${styles.task} ${checked ? styles.checked : ''}`} */}
                 <input
                     type='checkbox'
                     className={styles.checkbox}
