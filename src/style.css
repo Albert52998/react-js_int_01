@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    padding: 10px;
+}
+
+.main {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    width: 150px;
+    height: 150px;
+    background: rgb(45, 126, 49);
+    margin: 5px;
+    border: 1px solid #000;
+}
+
+.activeLink {
+    color: red;
+    font-weight: bold;
+}
